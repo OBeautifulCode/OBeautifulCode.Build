@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <authors>OBeautifulCode</authors>
+    <copyright>Copyright (c) 2016 OBeautifulCode</copyright>
+    <projectUrl>https://github.com/OBeautifulCode</projectUrl>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+</package>

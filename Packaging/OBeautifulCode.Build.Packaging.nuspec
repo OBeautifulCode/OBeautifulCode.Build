@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>OBeautifulCode.Build.Packaging</id>
+    <version>$version$</version>
+	  <authors>OBeautifulCode</authors>
+    <copyright>Copyright (c) 2017 OBeautifulCode</copyright>
+    <projectUrl>https://github.com/OBeautifulCode</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/OBeautifulCode.Build/master/nuget-icon.png</iconUrl>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The internal supporting resources for packaging.</description>
+    <tags>CI, Build</tags>
+    <developmentDependency>true</developmentDependency>
+	<dependencies>
+	</dependencies>
+  </metadata>  
+  <files>
+    <file src="OBeautifulCodeNuSpecTemplate.template-nuspec" target="scripts" />
+  </files>  
+</package>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>OBeautifulCode.Build.Conventions.ReSharper</id>
+    <version>$version$</version>
+	  <authors>OBeautifulCode</authors>
+    <copyright>Copyright (c) 2017 OBeautifulCode</copyright>
+    <projectUrl>https://github.com/OBeautifulCode</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/OBeautifulCode.Build/master/nuget-icon.png</iconUrl>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The internal ReSharper DotSettings to use.</description>
+    <tags>CI, Build</tags>
+    <developmentDependency>true</developmentDependency>
+	<dependencies>
+	</dependencies>
+  </metadata>
+  <files>
+    <file src="OBeautifulCode.Build.Conventions.ReSharper.Install.ps1" target="tools\install.ps1" />
+    <file src="OBeautifulCode.Build.Conventions.ReSharper.Uninstall.ps1" target="tools\uninstall.ps1" />
+    <file src="Release.DotSettings" target="Release.DotSettings" />
+    <file src="Test.DotSettings" target="Test.DotSettings" />
+  </files>
+</package>
