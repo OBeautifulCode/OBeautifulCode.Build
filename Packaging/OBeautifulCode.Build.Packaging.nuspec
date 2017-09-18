@@ -16,6 +16,6 @@
 	</dependencies>
   </metadata>  
   <files>
-    <file src="OBeautifulCodeNuSpecTemplate.template-nuspec" target="scripts" />
+    <file src="OBeautifulCodeNuSpecTemplate.template-nuspec" target="OBeautifulCodeNuSpecTemplate.template-nuspec" />
   </files>  
 </package>
