@@ -260,6 +260,12 @@
     <Rule Id="SA1601" Action="None" />
 
     <!--
+      ** Enumeration items should be documented **
+      See notes in SA0001
+    -->
+    <Rule Id="SA1602" Action="None" />
+
+    <!--
       ** Element documentation must not be copied and pasted **
       This is a good indication of invalid documentation.
     -->
