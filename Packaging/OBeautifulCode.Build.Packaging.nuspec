@@ -4,7 +4,7 @@
     <id>OBeautifulCode.Build.Packaging</id>
     <version>$version$</version>
 	  <authors>OBeautifulCode</authors>
-    <copyright>Copyright (c) 2017 OBeautifulCode</copyright>
+    <copyright>Copyright (c) 2018 OBeautifulCode</copyright>
     <projectUrl>https://github.com/OBeautifulCode</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/OBeautifulCode.Build/master/nuget-icon.png</iconUrl>
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
@@ -16,6 +16,6 @@
 	</dependencies>
   </metadata>  
   <files>
-    <file src="OBeautifulCodeNuSpecTemplate.template-nuspec" target="scripts" />
+    <file src="OBeautifulCodeNuSpecTemplate.template-nuspec" target="OBeautifulCodeNuSpecTemplate.template-nuspec" />
   </files>  
 </package>

@@ -4,7 +4,7 @@
     <id>OBeautifulCode.Build.Conventions.RepoConfig</id>
     <version>$version$</version>
 	  <authors>OBeautifulCode</authors>
-    <copyright>Copyright (c) 2017 OBeautifulCode</copyright>
+    <copyright>Copyright (c) 2018 OBeautifulCode</copyright>
     <projectUrl>https://github.com/OBeautifulCode</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/OBeautifulCode.Build/master/nuget-icon.png</iconUrl>
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
@@ -17,6 +17,7 @@
   </metadata>
   <files>
     <file src="Default.gitignore" target="Default.gitignore" />
+    <file src="Solution.DotSettings" target="Solution.DotSettings" />
     <file src="RepoConfig.ps1" target="RepoConfig.ps1" />
     <file src="RepoConfigInstructions.ps1" target="RepoConfigInstructions.ps1" />
   </files>
