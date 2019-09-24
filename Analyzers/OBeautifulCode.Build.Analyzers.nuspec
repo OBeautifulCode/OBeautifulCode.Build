@@ -13,7 +13,7 @@
     <tags>CI, Build</tags>
     <developmentDependency>true</developmentDependency>
 	<dependencies>
-        <dependency id="StyleCop.Analyzers" version="1.1.0-beta007" />
+        <dependency id="StyleCop.Analyzers.Unstable" version="1.1.0.47" />
 	</dependencies>
   </metadata>
   <files>
@@ -24,5 +24,6 @@
     <file src="analyzers\dictionary.xml" target="analyzers" />
     <file src="analyzers\release.ruleset" target="analyzers" />
     <file src="analyzers\test.ruleset" target="analyzers" />
+    <file src="analyzers\SuppressBecause.cs" target="analyzers" />
   </files>
 </package>
