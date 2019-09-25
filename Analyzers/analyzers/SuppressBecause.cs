@@ -7,7 +7,7 @@
 // </auto-generated>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace NAMESPACETOKEN
+namespace OBeautifulCode.Build.Analyzers
 {
     using System.CodeDom.Compiler;
     using System.Diagnostics.CodeAnalysis;
