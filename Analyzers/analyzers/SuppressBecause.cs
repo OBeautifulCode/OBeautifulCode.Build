@@ -25,7 +25,7 @@ namespace OBeautifulCode.Build.Analyzers
         public const string CA1014_MarkAssembliesWithClsCompliant_ConsoleExeDoesNotNeedToBeClsCompliant = "Console executable does not need the [assembly: CLSCompliant(true)] as it should not be shared as an assembly for reference.";
 
         /// <summary>
-        /// Console executable does not need the [assembly: CLSCompliant(true)] as it should not be shared as an assembly for reference.
+        /// We are optimizing for the logical grouping of types rather than the number of types in a namepace.
         /// </summary>
         public const string CA1020_AvoidNamespacesWithFewTypes_OptimizeForLogicalGroupingOfTypes = "We are optimizing for the logical grouping of types rather than the number of types in a namepace.";
 
