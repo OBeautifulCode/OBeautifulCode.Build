@@ -7,7 +7,7 @@
 // </auto-generated>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace $rootnamespace$.Internal
+namespace NAMESPACETOKEN.Internal
 {
     using System.CodeDom.Compiler;
     using System.Diagnostics.CodeAnalysis;
