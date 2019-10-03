@@ -7,7 +7,7 @@
 // </auto-generated>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace OBeautifulCode.Build.Analyzers
+namespace $rootnamespace$.Internal
 {
     using System.CodeDom.Compiler;
     using System.Diagnostics.CodeAnalysis;
@@ -17,7 +17,7 @@ namespace OBeautifulCode.Build.Analyzers
     /// </summary>
     [ExcludeFromCodeCoverage]
     [GeneratedCode("OBeautifulCode.Build.Analyzers", "See package version number")]
-    internal static class SuppressBecause
+    internal static class ObcSuppressBecause
     {
         /// <summary>
         /// Console executable does not need the [assembly: CLSCompliant(true)] as it should not be shared as an assembly for reference.
