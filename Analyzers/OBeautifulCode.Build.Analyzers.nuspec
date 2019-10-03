@@ -24,6 +24,6 @@
     <file src="analyzers\dictionary.xml" target="analyzers" />
     <file src="analyzers\release.ruleset" target="analyzers" />
     <file src="analyzers\test.ruleset" target="analyzers" />
-    <file src="analyzers\SuppressBecause.cs.pp" target="analyzers" />
+    <file src="analyzers\SuppressBecause.cs.pp" target="analyzers\SuppressBecause.cs.pp" />
   </files>
 </package>

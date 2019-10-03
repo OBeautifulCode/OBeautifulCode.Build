@@ -7,7 +7,7 @@
 // </auto-generated>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace $rootnamespace$
+namespace $rootnamespace$.Internal
 {
     using System.CodeDom.Compiler;
     using System.Diagnostics.CodeAnalysis;
