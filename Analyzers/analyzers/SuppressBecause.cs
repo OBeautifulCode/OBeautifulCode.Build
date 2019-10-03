@@ -35,9 +35,9 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1040_AvoidEmptyInterfaces_NeedToIdentifyGroupOfTypesAndPreferInterfaceOverAttribute = "When we need to identify a group of types, we prefer the use of an empty interface over an attribute because it's easier to use and results in cleaner code.";
 
         /// <summary>
-        /// It's ok to throw NotImplementedException in a code path that we believe will never be called.
+        /// It's ok to throw NotSupportedException for an unreachable code path.
         /// </summary>
-        public const string CA1065_DoNotRaiseExceptionsInUnexpectedLocations_ThrowNotImplementedExceptionForCodePathThatWillNeverBeCalled = "It's ok to throw NotImplementedException in a code path that we believe will never be called.";
+        public const string CA1065_DoNotRaiseExceptionsInUnexpectedLocations_ThrowNotSupportedExceptionUnreachableCodePath = "It's ok to throw NotSupportedException for an unreachable code path.";
 
         /// <summary>
         /// We prefer to read <see cref="System.Guid" />'s string representation as lowercase.
