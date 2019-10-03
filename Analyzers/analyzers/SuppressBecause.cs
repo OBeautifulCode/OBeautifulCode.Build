@@ -37,7 +37,7 @@ namespace NAMESPACETOKEN.Internal
         /// <summary>
         /// It's ok to throw NotSupportedException for an unreachable code path.
         /// </summary>
-        public const string CA1065_DoNotRaiseExceptionsInUnexpectedLocations_ThrowNotSupportedExceptionUnreachableCodePath = "It's ok to throw NotSupportedException for an unreachable code path.";
+        public const string CA1065_DoNotRaiseExceptionsInUnexpectedLocations_ThrowNotSupportedExceptionForUnreachableCodePath = "It's ok to throw NotSupportedException for an unreachable code path.";
 
         /// <summary>
         /// We prefer to read <see cref="System.Guid" />'s string representation as lowercase.
