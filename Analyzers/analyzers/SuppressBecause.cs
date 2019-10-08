@@ -45,6 +45,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1308_NormalizeStringsToUppercase_PreferGuidLowercase = "We prefer to read System.Guid's string representation as lowercase.";
 
         /// <summary>
+        /// The analyzer is incorrectly detecting compound words in a unit test method name.
+        /// </summary>
+        public const string CA1702_CompoundWordsShouldBeCasedCorrectly_AnalyzerIsIncorrectlyDetectingCompoundWordsInUnitTestMethodName = "The spelling of the identifier is correct in-context of the domain.";
+
+        /// <summary>
         /// The spelling of the identifier is correct in-context of the domain.
         /// </summary>
         public const string CA1704_IdentifiersShouldBeSpelledCorrectly_SpellingIsCorrectInContextOfTheDomain = "The spelling of the identifier is correct in-context of the domain.";
