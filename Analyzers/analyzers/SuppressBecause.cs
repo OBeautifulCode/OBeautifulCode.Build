@@ -43,5 +43,15 @@ namespace NAMESPACETOKEN.Internal
         /// We prefer to read <see cref="System.Guid" />'s string representation as lowercase.
         /// </summary>
         public const string CA1308_NormalizeStringsToUppercase_PreferGuidLowercase = "We prefer to read System.Guid's string representation as lowercase.";
+
+        /// <summary>
+        /// The spelling of the identifier is correct in-context of the domain.
+        /// </summary>
+        public const string CA1704_IdentifiersShouldBeSpelledCorrectly_SpellingIsCorrectInContextOfTheDomain = "The spelling of the identifier is correct in-context of the domain.";
+
+        /// <summary>
+        /// The public interface of the system associated with this object never exposes this object.
+        /// </summary>
+        public const string CA2227_CollectionPropertiesShouldBeReadOnly_PublicInterfaceNeverExposesTheObject = "The public interface of the system associated with this object never exposes this object.";
     }
 }
