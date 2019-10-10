@@ -55,6 +55,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1704_IdentifiersShouldBeSpelledCorrectly_SpellingIsCorrectInContextOfTheDomain = "The spelling of the identifier is correct in-context of the domain.";
 
         /// <summary>
+        /// The reserved exception is being used in unit test code; there is no real caller that will be impacted.
+        /// </summary>
+        public const string CA2201_DoNotRaiseReservedExceptionTypes_UsedForUnitTesting = "The reserved exception is being used in unit test code; there is no real caller that will be impacted.";
+
+        /// <summary>
         /// The public interface of the system associated with this object never exposes this object.
         /// </summary>
         public const string CA2227_CollectionPropertiesShouldBeReadOnly_PublicInterfaceNeverExposesTheObject = "The public interface of the system associated with this object never exposes this object.";
