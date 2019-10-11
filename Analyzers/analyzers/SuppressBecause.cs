@@ -47,7 +47,7 @@ namespace NAMESPACETOKEN.Internal
         /// <summary>
         /// The analyzer is incorrectly detecting compound words in a unit test method name.
         /// </summary>
-        public const string CA1702_CompoundWordsShouldBeCasedCorrectly_AnalyzerIsIncorrectlyDetectingCompoundWordsInUnitTestMethodName = "The spelling of the identifier is correct in-context of the domain.";
+        public const string CA1702_CompoundWordsShouldBeCasedCorrectly_AnalyzerIsIncorrectlyDetectingCompoundWordsInUnitTestMethodName = "The analyzer is incorrectly detecting compound words in a unit test method name.";
 
         /// <summary>
         /// The spelling of the identifier is correct in-context of the domain.
@@ -55,9 +55,19 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1704_IdentifiersShouldBeSpelledCorrectly_SpellingIsCorrectInContextOfTheDomain = "The spelling of the identifier is correct in-context of the domain.";
 
         /// <summary>
+        /// The type name adds clarity to the identifier and there is no good alternative.
+        /// </summary>
+        public const string CA1720_IdentifiersShouldNotContainTypeNames_TypeNameAddsClarityToIdentifyAndNoGoodAlternative = "The type name adds clarity to the identifier and there is no good alternative.";
+
+        /// <summary>
         /// The reserved exception is being used in unit test code; there is no real caller that will be impacted.
         /// </summary>
         public const string CA2201_DoNotRaiseReservedExceptionTypes_UsedForUnitTesting = "The reserved exception is being used in unit test code; there is no real caller that will be impacted.";
+
+        /// <summary>
+        /// The analyzer is incorectly flagging an object as being disposed multiple times.
+        /// </summary>
+        public const string CA2202_DoNotDisposeObjectsMultipleTimes_AnalyzerIsIncorrectlyFlaggingObjectAsBeingDisposedMultipleTimes = "The analyzer is incorectly flagging an object as being disposed multiple times.";
 
         /// <summary>
         /// The public interface of the system associated with this object never exposes this object.
