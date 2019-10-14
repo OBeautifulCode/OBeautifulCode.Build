@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$solutionname$.Recipes.RECIPE_NAME_HERE</id>
+    <description>DESCRIPTION_HERE</description>
+    <tags>TAG1_HERE TAG2_HERE</tags>
+    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/$solutionname$/master/$projectname$/nuget-icon.png</iconUrl>
+    <dependencies>
+      <dependency id="OBeautifulCode.Assertion.Recipes.Must" version="1.0.9" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src=".analyzers\SuppressBecause.cs" target="content\net462\.recipes\$solutionname$\SuppressBecause.cs" />
+    <file src="Class1.cs" target="content\net462\.recipes\$solutionname$\Class1.cs" />
+  </files>
+</package>
