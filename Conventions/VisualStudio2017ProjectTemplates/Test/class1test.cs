@@ -8,7 +8,7 @@ namespace $projectname$
 {
     using System;
 
-    using OBeautifulCode.Assertion.Recipes.Must;
+    using OBeautifulCode.Assertion.Recipes;
 
     using Xunit;
 
