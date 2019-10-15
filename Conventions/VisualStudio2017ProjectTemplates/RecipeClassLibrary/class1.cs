@@ -19,7 +19,7 @@ namespace $projectname$
 #else
     public
 #endif
-    public class Class1
+    class Class1
     {
     }
 }
