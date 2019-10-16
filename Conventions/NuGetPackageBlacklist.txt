@@ -46,7 +46,6 @@ OBeautifulCode.Representation.Recipes.TypeExtensions
 OBeautifulCode.Representation.System.Recipes.TypeExtensions
 OBeautifulCode.Security
 OBeautifulCode.Security.CertHelper
-OBeautifulCode.Serialization
 OBeautifulCode.String
 OBeautifulCode.String.Balance
 OBeautifulCode.String.StringExtensions
