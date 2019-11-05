@@ -20,6 +20,11 @@ namespace NAMESPACETOKEN.Internal
     internal static class ObcSuppressBecause
     {
         /// <summary>
+        /// See the other suppression message(s) applied within the same context.
+        /// </summary>
+        public const string CA_ALL_SeeOtherSuppressionMessages = "See the other suppression messages applied within the same context.";
+
+        /// <summary>
         /// Console executable does not need the [assembly: CLSCompliant(true)] as it should not be shared as an assembly for reference.
         /// </summary>
         public const string CA1014_MarkAssembliesWithClsCompliant_ConsoleExeDoesNotNeedToBeClsCompliant = "Console executable does not need the [assembly: CLSCompliant(true)] as it should not be shared as an assembly for reference.";
@@ -55,9 +60,19 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1704_IdentifiersShouldBeSpelledCorrectly_SpellingIsCorrectInContextOfTheDomain = "The spelling of the identifier is correct in-context of the domain.";
 
         /// <summary>
+        /// The identifier is suffixed with it's Type name to improve readability and comprehension of unit tests where the Type is a primary concern of those tests.
+        /// </summary>
+        public const string CA1711_IdentifiersShouldNotHaveIncorrectSuffix_TypeNameAddedAsSuffixForTestsWhereTypeIsPrimaryConcern = "The identifier is suffixed with it's Type name to improve readability and comprehension of unit tests where the Type is a primary concern of those tests.";
+
+        /// <summary>
         /// The type name adds clarity to the identifier and there is no good alternative.
         /// </summary>
         public const string CA1720_IdentifiersShouldNotContainTypeNames_TypeNameAddsClarityToIdentifyAndNoGoodAlternative = "The type name adds clarity to the identifier and there is no good alternative.";
+
+        /// <summary>
+        /// The type is being used in testing and we explicitly do not want the type to be equatable because it has bearing on the tests.
+        /// </summary>
+        public const string CA1815_OverrideEqualsAndOperatorEqualsOnValueTypes_TypeUsedForTestsThatRequireTypeToNotBeEquatable = "The type is being used in testing and we explicitly do not want the type to be equatable because it has bearing on the tests.";
 
         /// <summary>
         /// The reserved exception is being used in unit test code; there is no real caller that will be impacted.
