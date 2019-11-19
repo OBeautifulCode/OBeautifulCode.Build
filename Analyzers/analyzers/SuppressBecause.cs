@@ -67,12 +67,22 @@ namespace NAMESPACETOKEN.Internal
         /// <summary>
         /// The type name adds clarity to the identifier and there is no good alternative.
         /// </summary>
-        public const string CA1720_IdentifiersShouldNotContainTypeNames_TypeNameAddsClarityToIdentifyAndNoGoodAlternative = "The type name adds clarity to the identifier and there is no good alternative.";
+        public const string CA1720_IdentifiersShouldNotContainTypeNames_TypeNameAddsClarityToIdentifierAndNoGoodAlternative = "The type name adds clarity to the identifier and there is no good alternative.";
+
+        /// <summary>
+        /// The identifier includes 'Flags' to improve readability and comprehension of unit tests where the kind of Enum is a primary concern of those tests.
+        /// </summary>
+        public const string CA1726_UsePreferredTerms_FlagsAddedForTestsWhereEnumKindIsPrimaryConcern = "The identifier includes 'Flags' to improve readability and comprehension of unit tests where the kind of Enum is a primary concern of those tests.";
 
         /// <summary>
         /// The type is being used in testing and we explicitly do not want the type to be equatable because it has bearing on the tests.
         /// </summary>
         public const string CA1815_OverrideEqualsAndOperatorEqualsOnValueTypes_TypeUsedForTestsThatRequireTypeToNotBeEquatable = "The type is being used in testing and we explicitly do not want the type to be equatable because it has bearing on the tests.";
+
+        /// <summary>
+        /// The type is immutable.
+        /// </summary>
+        public const string CA2104_DoNotDeclareReadOnlyMutableReferenceTypes_TypeIsImmutable = "The type is immutable.";
 
         /// <summary>
         /// The reserved exception is being used in unit test code; there is no real caller that will be impacted.
