@@ -25,6 +25,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA_ALL_SeeOtherSuppressionMessages = "See the other suppression messages applied within the same context.";
 
         /// <summary>
+        /// The specified paramters are required to achieve the needed functionality.
+        /// </summary>
+        public const string CA1005_AvoidExcessiveParametersOnGenericTypes_SpecifiedParametersRequiredForNeededFunctionality = "The specified paramters are required to achieve the needed functionality.";
+
+        /// <summary>
         /// Console executable does not need the [assembly: CLSCompliant(true)] as it should not be shared as an assembly for reference.
         /// </summary>
         public const string CA1014_MarkAssembliesWithClsCompliant_ConsoleExeDoesNotNeedToBeClsCompliant = "Console executable does not need the [assembly: CLSCompliant(true)] as it should not be shared as an assembly for reference.";
@@ -48,6 +53,11 @@ namespace NAMESPACETOKEN.Internal
         /// We prefer to read <see cref="System.Guid" />'s string representation as lowercase.
         /// </summary>
         public const string CA1308_NormalizeStringsToUppercase_PreferGuidLowercase = "We prefer to read System.Guid's string representation as lowercase.";
+
+        /// <summary>
+        /// We disagree with the assessment that this method as excessively complex.
+        /// </summary>
+        public const string CA1502_AvoidExcessiveComplexity_DisagreeWithAssessment = "We disagree with the assessment that this method as excessively complex.";
 
         /// <summary>
         /// The analyzer is incorrectly detecting compound words in a unit test method name.
