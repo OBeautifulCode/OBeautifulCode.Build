@@ -80,6 +80,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1720_IdentifiersShouldNotContainTypeNames_TypeNameAddsClarityToIdentifierAndNoGoodAlternative = "The type name adds clarity to the identifier and there is no good alternative.";
 
         /// <summary>
+        /// The type name adds clarity to the identifier and the alternatives degrade the clarity of the identifier.
+        /// </summary>
+        public const string CA1720_IdentifiersShouldNotContainTypeNames_TypeNameAddsClarityToIdentifierAndAlternativesDegradeClarity = "The type name adds clarity to the identifier and the alternatives degrade the clarity of the identifier.";
+
+        /// <summary>
         /// The identifier includes 'Flags' to improve readability and comprehension of unit tests where the kind of Enum is a primary concern of those tests.
         /// </summary>
         public const string CA1726_UsePreferredTerms_FlagsAddedForTestsWhereEnumKindIsPrimaryConcern = "The identifier includes 'Flags' to improve readability and comprehension of unit tests where the kind of Enum is a primary concern of those tests.";
