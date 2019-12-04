@@ -40,6 +40,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1020_AvoidNamespacesWithFewTypes_OptimizeForLogicalGroupingOfTypes = "We are optimizing for the logical grouping of types rather than the number of types in a namepace.";
 
         /// <summary>
+        /// The type exists for unit tests that require a comparable type, but do not use the type to perform any comparisons.
+        /// </summary>
+        public const string CA1036_OverrideMethodsOnComparableTypes_TypeCreatedForTestsThatRequireComparableTypeButDoNotUseTypeToPerformComparisons = "The type exists for unit tests that require a comparable type, but do not use the type to perform any comparisons.";
+
+        /// <summary>
         /// When we need to identify a group of types, we prefer the use of an empty interface over an attribute because it's easier to use and results in cleaner code.
         /// </summary>
         public const string CA1040_AvoidEmptyInterfaces_NeedToIdentifyGroupOfTypesAndPreferInterfaceOverAttribute = "When we need to identify a group of types, we prefer the use of an empty interface over an attribute because it's easier to use and results in cleaner code.";
@@ -68,6 +73,11 @@ namespace NAMESPACETOKEN.Internal
         /// The spelling of the identifier is correct in-context of the domain.
         /// </summary>
         public const string CA1704_IdentifiersShouldBeSpelledCorrectly_SpellingIsCorrectInContextOfTheDomain = "The spelling of the identifier is correct in-context of the domain.";
+
+        /// <summary>
+        /// The identifier is suffixed with the name of the Type that it directly extends or implements to improves readability and comprehension of unit tests whre the Type is a primary concern of those tests.
+        /// </summary>
+        public const string CA1710_IdentifiersShouldHaveCorrectSuffix_NameDirectlyExtendedOrImplementedTypeAddedAsSuffixForTestsWhereTypeIsPrimaryConcern = "The identifier is suffixed with the name of the Type that it directly extends or implements to improves readability and comprehension of unit tests whre the Type is a primary concern of those tests.";
 
         /// <summary>
         /// The identifier is suffixed with it's Type name to improve readability and comprehension of unit tests where the Type is a primary concern of those tests.
