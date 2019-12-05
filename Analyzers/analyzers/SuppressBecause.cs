@@ -55,6 +55,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1040_AvoidEmptyInterfaces_NeedToIdentifyGroupOfTypesAndPreferInterfaceOverAttribute = "When we need to identify a group of types, we prefer the use of an empty interface over an attribute because it's easier to use and results in cleaner code.";
 
         /// <summary>
+        /// The type is used for test code that requires the instance field to be visible.
+        /// </summary>
+        public const string CA1051_DoNotDeclareVisibleInstanceFields_TypeUsedInTestingThatRequiresInstanceFieldToBeVisible = "The type is used for test code that requires the instance field to be visible.";
+
+        /// <summary>
         /// It's ok to throw NotSupportedException for an unreachable code path.
         /// </summary>
         public const string CA1065_DoNotRaiseExceptionsInUnexpectedLocations_ThrowNotSupportedExceptionForUnreachableCodePath = "It's ok to throw NotSupportedException for an unreachable code path.";
