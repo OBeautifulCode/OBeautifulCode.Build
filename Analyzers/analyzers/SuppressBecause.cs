@@ -40,6 +40,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1020_AvoidNamespacesWithFewTypes_OptimizeForLogicalGroupingOfTypes = "We are optimizing for the logical grouping of types rather than the number of types in a namepace.";
 
         /// <summary>
+        /// A visible nested type is required in unit tests.
+        /// </summary>
+        public const string CA1034_NestedTypesShouldNotBeVisible_VisibleNestedTypeRequiredForTesting = "A visible nested type is required in unit tests.";
+
+        /// <summary>
         /// The type exists for unit tests that require a comparable type, but do not use the type to perform any comparisons.
         /// </summary>
         public const string CA1036_OverrideMethodsOnComparableTypes_TypeCreatedForTestsThatRequireComparableTypeButDoNotUseTypeToPerformComparisons = "The type exists for unit tests that require a comparable type, but do not use the type to perform any comparisons.";
@@ -53,6 +58,11 @@ namespace NAMESPACETOKEN.Internal
         /// It's ok to throw NotSupportedException for an unreachable code path.
         /// </summary>
         public const string CA1065_DoNotRaiseExceptionsInUnexpectedLocations_ThrowNotSupportedExceptionForUnreachableCodePath = "It's ok to throw NotSupportedException for an unreachable code path.";
+
+        /// <summary>
+        /// It's ok to throw NotImplementedException when a base type or implementing an interface forces us to create a member that will never be used in testing.
+        /// </summary>
+        public const string CA1065_DoNotRaiseExceptionsInUnexpectedLocations_ThrowNotImplementedExceptionWhenForcedToSpecifyMemberThatWillNeverBeUsedInTesting = "It's ok to throw NotImplementedException when a base type or implementing an interface forces us to create a member that will never be used in testing.";
 
         /// <summary>
         /// We prefer to read <see cref="System.Guid" />'s string representation as lowercase.
@@ -123,5 +133,10 @@ namespace NAMESPACETOKEN.Internal
         /// The public interface of the system associated with this object never exposes this object.
         /// </summary>
         public const string CA2227_CollectionPropertiesShouldBeReadOnly_PublicInterfaceNeverExposesTheObject = "The public interface of the system associated with this object never exposes this object.";
+
+        /// <summary>
+        /// The type is used in unit tests with no intention to serialize.
+        /// </summary>
+        public const string CA2237_MarkISerializableTypesWithSerializable_UsedForTestingWithNoIntentionToSerialize = "The type is used in unit tests with no intention to serialize.";
     }
 }
