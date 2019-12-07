@@ -1,5 +1,6 @@
 regex:^Naos
 regex:^CoMetrics
+Its.Configuration
 OBeautifulCode.AccountingTime.BsonSerialization
 OBeautifulCode.AccountingTime.JsonSerialization
 OBeautifulCode.AccountingTime.Test.DummyFactory
