@@ -115,6 +115,16 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1726_UsePreferredTerms_FlagsAddedForTestsWhereEnumKindIsPrimaryConcern = "The identifier includes 'Flags' to improve readability and comprehension of unit tests where the kind of Enum is a primary concern of those tests.";
 
         /// <summary>
+        /// The method is wired into CLAP, a framework for command-line parsing, as a verb.
+        /// </summary>
+        public const string CA1811_AvoidUncalledPrivateCode_MethodIsWiredIntoClapAsVerb = "The method is wired into CLAP, a framework for command-line parsing, as a verb.";
+
+        /// <summary>
+        /// The class is wired into CLAP, a framework for command-line parsing, in Program.cs.
+        /// </summary>
+        public const string CA1812_AvoidUninstantiatedInternalClasses_ClassIsWiredIntoClapInProgramCs = "The class is wired into CLAP, a framework for command-line parsing, in Program.cs.";
+
+        /// <summary>
         /// The type is being used in testing and we explicitly do not want the type to be equatable because it has bearing on the tests.
         /// </summary>
         public const string CA1815_OverrideEqualsAndOperatorEqualsOnValueTypes_TypeUsedForTestsThatRequireTypeToNotBeEquatable = "The type is being used in testing and we explicitly do not want the type to be equatable because it has bearing on the tests.";
