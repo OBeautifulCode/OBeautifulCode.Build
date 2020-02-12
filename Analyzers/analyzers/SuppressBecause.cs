@@ -25,6 +25,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA_ALL_SeeOtherSuppressionMessages = "See the other suppression messages applied within the same context.";
 
         /// <summary>
+        /// We agree with the assessment.  This code needs refactoring but we cannot justify spending time on this right now.
+        /// </summary>
+        public const string CA_ALL_AgreeWithAssessmentAndNeedsRefactoring = "We agree with the assessment.  This code needs refactoring but we cannot justify spending time on this right now.";
+
+        /// <summary>
         /// The specified paramters are required to achieve the needed functionality.
         /// </summary>
         public const string CA1005_AvoidExcessiveParametersOnGenericTypes_SpecifiedParametersRequiredForNeededFunctionality = "The specified paramters are required to achieve the needed functionality.";
@@ -118,6 +123,11 @@ namespace NAMESPACETOKEN.Internal
         /// The method is wired into CLAP, a framework for command-line parsing, as a verb.
         /// </summary>
         public const string CA1811_AvoidUncalledPrivateCode_MethodIsWiredIntoClapAsVerb = "The method is wired into CLAP, a framework for command-line parsing, as a verb.";
+
+        /// <summary>
+        /// The property exists for completeness.
+        /// </summary>
+        public const string CA1811_AvoidUncalledPrivateCode_PropertyExistsForCompleteness = "The property exists for completeness.";
 
         /// <summary>
         /// The class is wired into CLAP, a framework for command-line parsing, in Program.cs.
