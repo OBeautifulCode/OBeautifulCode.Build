@@ -56,7 +56,7 @@ $nuspecs.Add($nuSpecFileConventionsRepoConfig)
 $nuSpecFileConventionsReSharper = Resolve-Path ./Conventions/OBeautifulCode.Build.Conventions.ReSharper.nuspec
 $nuspecs.Add($nuSpecFileConventionsReSharper)
 
-$nuSpecTemplateFilePath = $(ls . -Recurse | ?{$_.Name -eq 'OBeautifulCodeNuSpecTemplate.template-nuspec'}).FullName
+$nuSpecTemplateFilePath = $(ls . -Recurse | ?{$_.Name -eq 'OBeautifulCodeVisualStudioProjectTemplate.template-nuspec'}).FullName
 
 $visualStudioProjectTemplateDirectories = ls ./Conventions/VisualStudioProjectTemplates | ?{$_.PSIsContainer} | %{$_.FullName}
 $visualStudioProjectTemplateDirectories | %{

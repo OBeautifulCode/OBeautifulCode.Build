@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <authors>OBeautifulCode</authors>
+    <copyright>Copyright (c) 2018 OBeautifulCode</copyright>
+    <projectUrl>https://github.com/OBeautifulCode</projectUrl>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/OBeautifulCode.Build/master/nuget-icon.png</iconUrl>
+    <tags>visualstudio, template</tags>
+  </metadata>
+</package>
