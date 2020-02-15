@@ -21,6 +21,7 @@
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">GlobalSuppressions.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">[SOLUTION_NAME_WITHOUT_ORGANIZATION_PREFIX]DummyFactory.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">[SOLUTION_NAME_WITHOUT_ORGANIZATION_PREFIX]DummyFactory.designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">[SOLUTION_NAME_WITHOUT_ORGANIZATION_PREFIX]DummyFactoryTest.cs</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>
