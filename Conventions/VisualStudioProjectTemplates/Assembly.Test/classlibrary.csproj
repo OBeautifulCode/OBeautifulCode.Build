@@ -18,8 +18,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>
-    </DefineConstants>
+    <DefineConstants>[RECIPE_CONDITIONAL_COMPILATION_SYMBOL]</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
@@ -28,8 +27,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>
-    </DefineConstants>
+    <DefineConstants>[RECIPE_CONDITIONAL_COMPILATION_SYMBOL]</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
@@ -42,6 +40,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Class1Test.cs" />
     <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="[SOLUTION_NAME_WITHOUT_ORGANIZATION_PREFIX]DummyFactory.cs" />
+    <Compile Include="[SOLUTION_NAME_WITHOUT_ORGANIZATION_PREFIX]DummyFactory.designer.cs">
+      <DependentUpon>[SOLUTION_NAME_WITHOUT_ORGANIZATION_PREFIX]DummyFactory.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
  </Project>
