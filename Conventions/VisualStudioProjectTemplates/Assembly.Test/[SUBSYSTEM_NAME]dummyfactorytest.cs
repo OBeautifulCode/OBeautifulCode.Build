@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="[SOLUTION_NAME_WITHOUT_ORGANIZATION_PREFIX]DummyFactoryTest.cs" company="OBeautifulCode">
+// <copyright file="[SUBSYSTEM_NAME]DummyFactoryTest.cs" company="OBeautifulCode">
 //   Copyright (c) OBeautifulCode 2018. All rights reserved.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
@@ -14,7 +14,7 @@ namespace [PROJECT_NAME]
 
     using Xunit;
 
-    public static partial class [SOLUTION_NAME_WITHOUT_ORGANIZATION_PREFIX]DummyFactoryTest
+    public static partial class [SUBSYSTEM_NAME]DummyFactoryTest
     {
     }
 }

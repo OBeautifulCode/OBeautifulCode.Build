@@ -40,11 +40,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Class1Test.cs" />
     <Compile Include="GlobalSuppressions.cs" />
-    <Compile Include="[SOLUTION_NAME_WITHOUT_ORGANIZATION_PREFIX]DummyFactory.cs" />
-    <Compile Include="[SOLUTION_NAME_WITHOUT_ORGANIZATION_PREFIX]DummyFactory.designer.cs">
-      <DependentUpon>[SOLUTION_NAME_WITHOUT_ORGANIZATION_PREFIX]DummyFactory.cs</DependentUpon>
+    <Compile Include="[SUBSYSTEM_NAME]DummyFactory.cs" />
+    <Compile Include="[SUBSYSTEM_NAME]DummyFactory.designer.cs">
+      <DependentUpon>[SUBSYSTEM_NAME]DummyFactory.cs</DependentUpon>
     </Compile>
-    <Compile Include="[SOLUTION_NAME_WITHOUT_ORGANIZATION_PREFIX]DummyFactoryTest.cs" />
+    <Compile Include="[SUBSYSTEM_NAME]DummyFactoryTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
  </Project>

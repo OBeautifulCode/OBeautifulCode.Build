@@ -19,7 +19,7 @@ namespace [PROJECT_NAME]
     /// </summary>
     [ExcludeFromCodeCoverage]
     [GeneratedCode("[VISUAL_STUDIO_TEMPLATE_PACKAGE_NAME]", "[VISUAL_STUDIO_TEMPLATE_PACKAGE_VERSION]")]
-    public abstract class Default[SOLUTION_NAME_WITHOUT_ORGANIZATION_PREFIX]DummyFactory : IDummyFactory
+    public abstract class Default[SUBSYSTEM_NAME]DummyFactory : IDummyFactory
     {
         /// <inheritdoc />
         public Priority Priority => new FakeItEasy.Priority(1);
