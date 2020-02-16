@@ -15,7 +15,7 @@ namespace [PROJECT_NAME]
     /// <summary>
     /// TODO: Starting point for new project.
     /// </summary>
-    public static class Class1Test
+    public static partial class Class1Test
     {
         [Fact]
         public static void Method___Should_do_something___When_called()
