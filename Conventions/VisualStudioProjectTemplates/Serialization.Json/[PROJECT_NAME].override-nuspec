@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <description>JSON serialization configuration for types in [PROJECT_NAME_WITHOUT_SERIALIZATION_SUFFIX]</description>
+    <tags>[SUBSYSTEM_NAME] json serialization</tags>
+    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/[SOLUTION_NAME]/master/[PROJECT_NAME]/nuget-icon.png</iconUrl>
+  </metadata>
+</package>
