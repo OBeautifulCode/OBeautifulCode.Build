@@ -10,6 +10,11 @@
 namespace [PROJECT_NAME]
 {
     using System;
+    using System.CodeDom.Compiler;
+    using System.Diagnostics.CodeAnalysis;
+
+    using [ORGANIZATION].[SUBSYSTEM_NAME].Serialization.Bson;
+    using [ORGANIZATION].[SUBSYSTEM_NAME].Serialization.Json;
 
     [ExcludeFromCodeCoverage]
     [GeneratedCode("[VISUAL_STUDIO_TEMPLATE_PACKAGE_ID]", "[VISUAL_STUDIO_TEMPLATE_PACKAGE_VERSION]")]
