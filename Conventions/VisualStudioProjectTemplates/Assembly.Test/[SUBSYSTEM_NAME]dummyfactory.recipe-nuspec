@@ -6,7 +6,7 @@
     <tags>dummyfactory dummy factory fakeiteasy autofixture</tags>
     <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/[SOLUTION_NAME]/master/[PROJECT_NAME]/nuget-icon.png</iconUrl>
     <dependencies>
-        <dependency id="PROJECT_NAME_WITHOUT_TEST_SUFFIX" version="$version$" />
+        <dependency id="[PROJECT_NAME_WITHOUT_TEST_SUFFIX]" version="$version$" />
         <dependency id="OBeautifulCode.AutoFakeItEasy" version ="1.0.126" />
     </dependencies>
   </metadata>
