@@ -16,7 +16,7 @@ namespace [PROJECT_NAME]
     using OBeautifulCode.AutoFakeItEasy;
 
     /// <summary>
-    /// A dummy factory for types in <see cref="[PROJECT_NAME_WITHOUT_TEST_SUFFIX]"/>.
+    /// A Dummy Factory for types in <see cref="[PROJECT_NAME_WITHOUT_TEST_SUFFIX]"/>.
     /// </summary>
  #if ![RECIPE_CONDITIONAL_COMPILATION_SYMBOL]
     [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
