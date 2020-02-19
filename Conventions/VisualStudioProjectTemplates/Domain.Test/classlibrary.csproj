@@ -46,7 +46,7 @@
     </Compile>
     <Compile Include="[SUBSYSTEM_NAME]DummyFactoryTest.cs" />
     <None Include="[SUBSYSTEM_NAME]DummyFactory.recipe-nuspec" />
-    <Compile Include="[SUBSYSTEM_NAME]SerializationConfigurationTypes.cs" />
+    <Compile Include="SerializationConfigurationTypes.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
  </Project>
