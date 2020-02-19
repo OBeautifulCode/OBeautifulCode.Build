@@ -45,7 +45,7 @@
       <DependentUpon>[SUBSYSTEM_NAME]DummyFactory.cs</DependentUpon>
     </Compile>
     <Compile Include="[SUBSYSTEM_NAME]DummyFactoryTest.cs" />
-    <None Include="[SUBSYSTEM_NAME]DummyFactory.recipe-nuspec" />
+    <None Include="DummyFactory.recipe-nuspec" />
     <Compile Include="SerializationConfigurationTypes.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
