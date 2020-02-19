@@ -115,6 +115,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1720_IdentifiersShouldNotContainTypeNames_TypeNameAddsClarityToIdentifierAndAlternativesDegradeClarity = "The type name adds clarity to the identifier and the alternatives degrade the clarity of the identifier.";
 
         /// <summary>
+        /// The identifier includes it's Type name to improve readability and comprehension of unit tests where the Type is a primary concern of those tests.
+        /// </summary>
+        public const string CA1720_IdentifiersShouldNotContainTypeNames_TypeNameAddedToIdentifierForTestsWhereTypeIsPrimaryConcern = "The identifier includes it's Type name to improve readability and comprehension of unit tests where the Type is a primary concern of those tests.";
+
+        /// <summary>
         /// The identifier includes 'Flags' to improve readability and comprehension of unit tests where the kind of Enum is a primary concern of those tests.
         /// </summary>
         public const string CA1726_UsePreferredTerms_FlagsAddedForTestsWhereEnumKindIsPrimaryConcern = "The identifier includes 'Flags' to improve readability and comprehension of unit tests where the kind of Enum is a primary concern of those tests.";
