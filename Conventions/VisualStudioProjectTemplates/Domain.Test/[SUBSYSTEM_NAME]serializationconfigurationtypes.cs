@@ -20,8 +20,8 @@ namespace [PROJECT_NAME]
     [GeneratedCode("[VISUAL_STUDIO_TEMPLATE_PACKAGE_ID]", "[VISUAL_STUDIO_TEMPLATE_PACKAGE_VERSION]")]
     public static class [SUBSYSTEM_NAME]SerializationConfigurationTypes
     {
-        public static Type BsonConfigurationType => typeof([SUBSYSTEM_NAME]BsonSerializationConfiguration);
+        public static Type BsonSerializationConfigurationType => typeof([SUBSYSTEM_NAME]BsonSerializationConfiguration);
 
-        public static Type JsonConfigurationType => typeof([SUBSYSTEM_NAME]JsonSerializationConfiguration);
+        public static Type JsonSerializationConfigurationType => typeof([SUBSYSTEM_NAME]JsonSerializationConfiguration);
     }
 }
