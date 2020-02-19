@@ -3,7 +3,7 @@
   <metadata>
     <id>[SOLUTION_NAME].Recipes.RECIPE_NAME_HERE</id>
     <description>DESCRIPTION_HERE</description>
-    <tags>TAG1_HERE TAG2_HERE</tags>
+    <tags>TAG1_HERE TAG2_HERE [SUBSYSTEM_NAME]</tags>
     <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/[SOLUTION_NAME]/master/[PROJECT_NAME]/nuget-icon.png</iconUrl>
     <dependencies>
       <dependency id="OBeautifulCode.Assertion.Recipes.Must" version="1.0.9" />

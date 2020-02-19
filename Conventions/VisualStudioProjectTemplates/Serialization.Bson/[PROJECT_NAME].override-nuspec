@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <description>BSON serialization configuration for types in [ORGANIZATION].[SUBSYSTEM_NAME]</description>
-    <tags>[SUBSYSTEM_NAME] bson serialization</tags>
+    <tags>bson serialization configuration [SUBSYSTEM_NAME]</tags>
     <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/[SOLUTION_NAME]/master/[PROJECT_NAME]/nuget-icon.png</iconUrl>
   </metadata>
 </package>

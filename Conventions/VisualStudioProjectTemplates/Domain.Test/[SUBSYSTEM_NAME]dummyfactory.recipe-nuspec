@@ -3,7 +3,7 @@
   <metadata>
     <id>[SOLUTION_NAME].Recipes.DummyFactory</id>
     <description>A Dummy Factory for types in [PROJECT_NAME_WITHOUT_TEST_SUFFIX]</description>
-    <tags>dummyfactory dummy factory fakeiteasy autofixture</tags>
+    <tags>dummyfactory dummy factory fakeiteasy autofixture [SUBSYSTEM_NAME]</tags>
     <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/[SOLUTION_NAME]/master/[PROJECT_NAME]/nuget-icon.png</iconUrl>
     <dependencies>
         <dependency id="[PROJECT_NAME_WITHOUT_TEST_SUFFIX]" version="$version$" />
