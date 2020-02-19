@@ -16,5 +16,6 @@ namespace [PROJECT_NAME]
 
     public static partial class [SUBSYSTEM_NAME]DummyFactoryTest
     {
+        /* Add your Dummy Factory tests, if any, here. */
     }
 }
