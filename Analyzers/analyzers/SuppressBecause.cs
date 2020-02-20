@@ -45,6 +45,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1020_AvoidNamespacesWithFewTypes_OptimizeForLogicalGroupingOfTypes = "We are optimizing for the logical grouping of types rather than the number of types in a namepace.";
 
         /// <summary>
+        /// This is not a flags enum.  Enum values are purposefully non-contiguous.
+        /// </summary>
+        public const string CA1027_MarkEnumsWithFlags_EnumValuesArePurposefullyNonContiguous = "This is not a flags enum.  Enum values are purposefully non-contiguous.";
+
+        /// <summary>
         /// A visible nested type is required in unit tests.
         /// </summary>
         public const string CA1034_NestedTypesShouldNotBeVisible_VisibleNestedTypeRequiredForTesting = "A visible nested type is required in unit tests.";
