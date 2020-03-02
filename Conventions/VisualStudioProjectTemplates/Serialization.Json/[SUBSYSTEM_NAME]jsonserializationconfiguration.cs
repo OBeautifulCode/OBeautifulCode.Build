@@ -12,7 +12,7 @@ namespace [PROJECT_NAME]
     using OBeautifulCode.Serialization.Json;
 
     /// <inheritdoc />
-    public class [SUBSYSTEM_NAME]JsonSerializationConfiguration : JsonConfigurationBase
+    public class [SUBSYSTEM_NAME]JsonSerializationConfiguration : JsonSerializationConfigurationBase
     {
         /// <inheritdoc />
         protected override IReadOnlyCollection<Type> TypesToAutoRegister => new Type[]
