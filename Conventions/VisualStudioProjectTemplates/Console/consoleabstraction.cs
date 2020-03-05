@@ -4,7 +4,7 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace OBeautifulCode.CodeGen.Console
+namespace [PROJECT_NAME]
 {
     using System.Diagnostics;
     using System.Diagnostics.CodeAnalysis;
@@ -12,7 +12,7 @@ namespace OBeautifulCode.CodeGen.Console
     using CLAP;
 
     using OBeautifulCode.Bootstrapper.Recipes;
-    using OBeautifulCode.CodeGen.Console.Internal;
+    using [PROJECT_NAME].Internal;
 
     /// <inheritdoc />
     [SuppressMessage("Microsoft.Performance", "CA1812:AvoidUninstantiatedInternalClasses", Justification = ObcSuppressBecause.CA1812_AvoidUninstantiatedInternalClasses_ClassIsWiredIntoClapInProgramCs)]
