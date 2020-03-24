@@ -40,12 +40,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Class1Test.cs" />
     <Compile Include="GlobalSuppressions.cs" />
-    <Compile Include="[SUBSYSTEM_NAME]DummyFactory.cs" />
-    <Compile Include="[SUBSYSTEM_NAME]DummyFactory.designer.cs">
-      <DependentUpon>[SUBSYSTEM_NAME]DummyFactory.cs</DependentUpon>
-    </Compile>
-    <Compile Include="[SUBSYSTEM_NAME]DummyFactoryTest.cs" />
-    <None Include="[SUBSYSTEM_NAME]DummyFactory.recipe-nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
  </Project>
