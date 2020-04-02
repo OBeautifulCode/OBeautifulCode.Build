@@ -64,7 +64,7 @@ $visualStudioProjectTemplateDirectories | %{
     $projectTemplateDirectoryName = Split-Path $projectTemplateDirectory -Leaf
     $packageId = "OBeautifulCode.Build.Conventions.VisualStudioProjectTemplates.$projectTemplateDirectoryName"
     $nuSpecFilePath = "./VisualStudioProjectTemplate_$projectTemplateDirectoryName.nuspec"
-	$contents = Nuget-GetMinimumNuSpec -id $packageId -version '$version$' -authors $authors -description $description -isDevelopmentDependency $true
+	$contents = Nuget-GetMinimumNuSpec -id $packageId -version '$version$' -authors $authors -description 'Visual Studio Project Template - Description changed below' -isDevelopmentDependency $true
 	$contents | Out-File $nuSpecFilePath -Force
 	[xml] $nuSpecFileXml = Get-Content $nuSpecFilePath    
 	[xml] $nuSpecTemplateFileXml = Get-Content $nuSpecTemplateFilePath
