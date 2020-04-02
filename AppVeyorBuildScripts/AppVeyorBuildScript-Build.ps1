@@ -43,6 +43,7 @@ $artifactScriptBlock = { param([string] $fileName)
 #######################################################################
 ###     Pack and push build                                         ###
 #######################################################################
+$authors = 'OBeautifulCode Team'
 $createdPackagePaths = New-Object 'System.Collections.Generic.List[String]'
 $informationalVersion = Nuget-CreatePreReleaseSupportedVersion -version $buildVersion -branchName $branchName
 
