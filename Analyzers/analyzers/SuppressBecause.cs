@@ -155,6 +155,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1812_AvoidUninstantiatedInternalClasses_ClassIsWiredIntoClapInProgramCs = "The class is wired into CLAP, a framework for command-line parsing, in Program.cs.";
 
         /// <summary>
+        /// The class exists because it's Type is used in unit tests.
+        /// </summary>
+        public const string CA1812_AvoidUninstantiatedInternalClasses_ClassExistsToUseItsTypeInUnitTests = "The class exists so that it's Type can be used in unit tests.";
+
+        /// <summary>
         /// The type is being used in testing and we explicitly do not want the type to be equatable because it has bearing on the tests.
         /// </summary>
         public const string CA1815_OverrideEqualsAndOperatorEqualsOnValueTypes_TypeUsedForTestsThatRequireTypeToNotBeEquatable = "The type is being used in testing and we explicitly do not want the type to be equatable because it has bearing on the tests.";
