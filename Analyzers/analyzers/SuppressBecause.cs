@@ -9,8 +9,8 @@
 
 namespace NAMESPACETOKEN.Internal
 {
-    using System.CodeDom.Compiler;
-    using System.Diagnostics.CodeAnalysis;
+    using global::System.CodeDom.Compiler;
+    using global::System.Diagnostics.CodeAnalysis;
     
     /// <summary>
     /// Standard justifications for analysis suppression.
@@ -85,7 +85,7 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1065_DoNotRaiseExceptionsInUnexpectedLocations_ThrowNotImplementedExceptionWhenForcedToSpecifyMemberThatWillNeverBeUsedInTesting = "It's ok to throw NotImplementedException when a base type or implementing an interface forces us to create a member that will never be used in testing.";
 
         /// <summary>
-        /// We prefer to read <see cref="System.Guid" />'s string representation as lowercase.
+        /// We prefer to read <see cref="global::System.Guid" />'s string representation as lowercase.
         /// </summary>
         public const string CA1308_NormalizeStringsToUppercase_PreferGuidLowercase = "We prefer to read System.Guid's string representation as lowercase.";
 
