@@ -135,6 +135,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1726_UsePreferredTerms_FlagsAddedForTestsWhereEnumKindIsPrimaryConcern = "The identifier includes 'Flags' to improve readability and comprehension of unit tests where the kind of Enum is a primary concern of those tests.";
 
         /// <summary>
+        /// The name of the Type of the identifier uses the term 'Flags' and so it's appropriate to use that term in the the name of the identifier.
+        /// </summary>
+        public const string CA1726_UsePreferredTerms_NameOfTypeOfIdentifierUsesTheTermFlags = "The name of the Type of the identifier uses the term 'Flags' and so it's appropriate to use that term in the the name of the identifier.";
+
+        /// <summary>
         /// The static field(s) are declared in a code generated partial test class that should not be alterated.
         /// </summary>
         public const string CA1810_InitializeReferenceTypeStaticFieldsInline_FieldsDeclaredInCodeGeneratedPartialTestClass = "The static field(s) are declared in a code generated partial test class that should not be alterated.";
