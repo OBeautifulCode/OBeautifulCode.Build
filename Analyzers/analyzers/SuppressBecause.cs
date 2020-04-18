@@ -120,6 +120,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1711_IdentifiersShouldNotHaveIncorrectSuffix_TypeNameAddedAsSuffixForTestsWhereTypeIsPrimaryConcern = "The identifier is suffixed with it's Type name to improve readability and comprehension of unit tests where the Type is a primary concern of those tests.";
 
         /// <summary>
+        /// The name is plural.
+        /// </summary>
+        public const string CA1714_FlagsEnumsShouldHavePluralNames_TheNameIsPlural = "The name is plural.";
+
+        /// <summary>
         /// The type name adds clarity to the identifier and there is no good alternative.
         /// </summary>
         public const string CA1720_IdentifiersShouldNotContainTypeNames_TypeNameAddsClarityToIdentifierAndNoGoodAlternative = "The type name adds clarity to the identifier and there is no good alternative.";
