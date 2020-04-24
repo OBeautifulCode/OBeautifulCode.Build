@@ -180,6 +180,16 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1815_OverrideEqualsAndOperatorEqualsOnValueTypes_TypeUsedForTestsThatRequireTypeToNotBeEquatable = "The type is being used in testing and we explicitly do not want the type to be equatable because it has bearing on the tests.";
 
         /// <summary>
+        /// The disposable object is the method's return object.
+        /// </summary>
+        public const string CA2000_DisposeObjectsBeforeLosingScope_DisposableObjectIsMethodReturnObject = "The disposable object is the method's return object.  Cannot return disposed object.";
+
+        /// <summary>
+        /// The method creates a dispoable object, but it cannot be disposed because the return object requires the disposable object to be fully intact.
+        /// </summary>
+        public const string CA2000_DisposeObjectsBeforeLosingScope_MethodCreatesDisposableObjectButItCannotBeDisposedBecauseReturnObjectRequiresDisposableObjectToBeFullyIntact = "The method creates a dispoable object, but it cannot be disposed because the return object requires the disposable object to be fully intact.";
+
+        /// <summary>
         /// The type is immutable.
         /// </summary>
         public const string CA2104_DoNotDeclareReadOnlyMutableReferenceTypes_TypeIsImmutable = "The type is immutable.";
