@@ -100,6 +100,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1502_AvoidExcessiveComplexity_DisagreeWithAssessment = "We disagree with the assessment that this method as excessively complex.";
 
         /// <summary>
+        /// We disagree with the assessment this type or method is excessively coupled.
+        /// </summary>
+        public const string CA1506_AvoidExcessiveClassCoupling_DisagreeWithAssessment = "We disagree with the assessment this type or method is excessively coupled.";
+
+        /// <summary>
         /// The analyzer is incorrectly detecting compound words in a unit test method name.
         /// </summary>
         public const string CA1702_CompoundWordsShouldBeCasedCorrectly_AnalyzerIsIncorrectlyDetectingCompoundWordsInUnitTestMethodName = "The analyzer is incorrectly detecting compound words in a unit test method name.";
