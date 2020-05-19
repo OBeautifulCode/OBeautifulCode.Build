@@ -205,6 +205,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA2202_DoNotDisposeObjectsMultipleTimes_AnalyzerIsIncorrectlyFlaggingObjectAsBeingDisposedMultipleTimes = "The analyzer is incorectly flagging an object as being disposed multiple times.";
 
         /// <summary>
+        /// The overridden method does not relies on initialization nor other configuration in the constructor.
+        /// </summary>
+        public const string CA2214_DoNotCallOverridableMethodsInConstructors_OverriddenMethodDoesNotRelyOnInitializationNorOtherConfigurationInConstructor = "The overridden method does not relies on initialization nor other configuration in the constructor.";
+
+        /// <summary>
         /// The public interface of the system associated with this object never exposes this object.
         /// </summary>
         public const string CA2227_CollectionPropertiesShouldBeReadOnly_PublicInterfaceNeverExposesTheObject = "The public interface of the system associated with this object never exposes this object.";
