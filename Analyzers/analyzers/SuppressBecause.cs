@@ -35,6 +35,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1000_DoNotDeclareStaticMembersOnGenericTypes_StaticPropertyReturnsInstanceOfContainingGenericClassAndIsConvenientAndMostDiscoverableWhereDeclared = "A static property returns an instance of the generic class that contains the property.  The property exists for convenience in creating and configuring the instance.  It is most discoverable where it is, in-context of the class being instantiated.";
 
         /// <summary>
+        /// A generic list is required in unit tests.
+        /// </summary>
+        public const string CA1002_DoNotExposeGenericLists_GenericListRequiredForTesting = "A generic list is required in unit tests.";
+
+        /// <summary>
         /// The only input(s) to the method are Types.  It's more concise to call the method using generic types parameters instead of a parameter signature with parameters of type Type (e.g. MyMethod&lt;MyType&gt;() instead of MyMethod(Type myType)).
         /// </summary>
         public const string CA1004_GenericMethodsShouldProvideTypeParameter_OnlyInputsToMethodAreTypesAndItsMoreConciseToCallMethodUseGenericTypeParameters = "The only input(s) to the method are Types.  It's more concise to call the method using generic types parameters instead of a parameter signature with parameters of type Type (e.g. MyMethod<MyType>() instead of MyMethod(Type myType)).";
