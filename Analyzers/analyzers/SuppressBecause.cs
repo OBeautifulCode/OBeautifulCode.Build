@@ -225,6 +225,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA2227_CollectionPropertiesShouldBeReadOnly_PublicInterfaceNeverExposesTheObject = "The public interface of the system associated with this object never exposes this object.";
 
         /// <summary>
+        /// A writeable collection is require for unit tests.
+        /// </summary>
+        public const string CA2227_CollectionPropertiesShouldBeReadOnly_WriteableCollectionRequiredForTesting = "A writeable collection is require for unit tests.";
+
+        /// <summary>
         /// The type is used in unit tests with no intention to serialize.
         /// </summary>
         public const string CA2237_MarkISerializableTypesWithSerializable_UsedForTestingWithNoIntentionToSerialize = "The type is used in unit tests with no intention to serialize.";
