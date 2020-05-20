@@ -190,6 +190,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1815_OverrideEqualsAndOperatorEqualsOnValueTypes_TypeUsedForTestsThatRequireTypeToNotBeEquatable = "The type is being used in testing and we explicitly do not want the type to be equatable because it has bearing on the tests.";
 
         /// <summary>
+        /// An array property is required for unit tests.
+        /// </summary>
+        public const string CA1819_PropertiesShouldNotReturnArrays_ArrayPropertyRequiredForTesting = "An array property is required for unit tests.";
+
+        /// <summary>
         /// The disposable object is the method's return object.
         /// </summary>
         public const string CA2000_DisposeObjectsBeforeLosingScope_DisposableObjectIsMethodReturnObject = "The disposable object is the method's return object.  Cannot return disposed object.";
