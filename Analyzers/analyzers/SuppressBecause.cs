@@ -110,9 +110,9 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1506_AvoidExcessiveClassCoupling_DisagreeWithAssessment = "We disagree with the assessment this type or method is excessively coupled.";
 
         /// <summary>
-        /// The analyzer is incorrectly detecting compound words in a unit test method name.
+        /// The analyzer is incorrectly detecting compound words.
         /// </summary>
-        public const string CA1702_CompoundWordsShouldBeCasedCorrectly_AnalyzerIsIncorrectlyDetectingCompoundWordsInUnitTestMethodName = "The analyzer is incorrectly detecting compound words in a unit test method name.";
+        public const string CA1702_CompoundWordsShouldBeCasedCorrectly_AnalyzerIsIncorrectlyDetectingCompoundWords = "The analyzer is incorrectly detecting compound words.";
 
         /// <summary>
         /// The spelling of the identifier is correct in-context of the domain.
