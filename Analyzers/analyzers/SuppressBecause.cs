@@ -180,6 +180,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1812_AvoidUninstantiatedInternalClasses_ClassIsWiredIntoClapInProgramCs = "The class is wired into CLAP, a framework for command-line parsing, in Program.cs.";
 
         /// <summary>
+        /// The class derives from SerializationConfigurationBase and is instantiated by a Serializer that is configured using the type of that class.
+        /// </summary>
+        public const string CA1812_AvoidUninstantiatedInternalClasses_SerializationConfigurationClassInstantedBySerializer = "The class derives from SerializationConfigurationBase and is instantiated by a Serializer that is configured using the type of that class.";
+
+        /// <summary>
         /// The class exists because it's Type is used in unit tests.
         /// </summary>
         public const string CA1812_AvoidUninstantiatedInternalClasses_ClassExistsToUseItsTypeInUnitTests = "The class exists so that it's Type can be used in unit tests.";
