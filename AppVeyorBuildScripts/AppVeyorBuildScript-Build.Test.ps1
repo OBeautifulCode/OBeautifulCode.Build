@@ -2,6 +2,13 @@
  $projectFileExtension = 'csproj'
  $hasTestFailure = $false
  $csProjFilePaths = ls $path -filter "*.$projectFileExtension" -recurse | %{$_.FullName} | ?{$_.ToLower().EndsWith(".test.$projectFileExtension") -or $_.ToLower().EndsWith(".tests.$projectFileExtension")}
+ 
+ Write-Output ''
+ Write-Output "================ STARTING TESTING ================"
+ $csProjFilePaths | %{
+     Write-Output "Discovered test project: $_"
+ }
+
  $csProjFilePaths | %{
     $csProjFilePath = $_
     $csProjFileName = Split-Path $csProjFilePath -Leaf
@@ -41,5 +48,10 @@
  if ($hasTestFailure)
  {
      throw "A unit test has failed.  Test runner exited with non-0 exit code.  See output above for details."
+ }
+ else
+ {
+     Write-Output ''
+     Write-Output "================ COMPLETED TESTING ================"
  }
  
