@@ -10,6 +10,9 @@
     $exePath = "$csProjAssemblyPathWithoutExtension.exe"
     $DllPath = "$csProjAssemblyPathWithoutExtension.dll"
 
+    Write-Output ''
+    Write-Output "================ START TEST $csProjFileName ================"
+
     if (Test-Path $exePath)
     {
         &(Join-Path $env:xunit20 'xunit.console.x86') $exePath -appveyor
@@ -30,6 +33,9 @@
     {
         throw "Expected to either find assembly: $exePath or $dllPath.  Neither were found, please verify that the output assembly is named the same as the project."
     }
+
+    Write-Output "================ END TEST $csProjFileName ================"
+    Write-Output ''
  }
 
  if ($hasTestFailure)
