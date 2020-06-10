@@ -20,8 +20,8 @@ namespace [PROJECT_NAME]
     [GeneratedCode("[VISUAL_STUDIO_TEMPLATE_PACKAGE_ID]", "[VISUAL_STUDIO_TEMPLATE_PACKAGE_VERSION]")]
     public static class SerializationConfigurationTypes
     {
-        public static Type BsonConfigurationType => typeof([PROJECT_NAME_CLASSNAME_PREFIX]BsonSerializationConfiguration);
+        public static BsonSerializationConfigurationType BsonConfigurationType => typeof([PROJECT_NAME_CLASSNAME_PREFIX]BsonSerializationConfiguration).ToBsonSerializationConfigurationType();
 
-        public static Type JsonConfigurationType => typeof([PROJECT_NAME_CLASSNAME_PREFIX]JsonSerializationConfiguration);
+        public static JsonSerializationConfigurationType JsonConfigurationType => typeof([PROJECT_NAME_CLASSNAME_PREFIX]JsonSerializationConfiguration).ToJsonSerializationConfigurationType();
     }
 }
