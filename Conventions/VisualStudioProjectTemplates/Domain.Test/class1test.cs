@@ -12,9 +12,6 @@ namespace [PROJECT_NAME]
 
     using Xunit;
 
-    /// <summary>
-    /// TODO: Starting point for new project.
-    /// </summary>
     public static partial class Class1Test
     {
         [Fact]
