@@ -6,7 +6,6 @@
     <tags>TAGS_HERE snippet codeinclude utility shared recipe [SUBSYSTEM_NAME]</tags>
     <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/[SOLUTION_NAME]/master/[PROJECT_NAME]/nuget-icon.png</iconUrl>
     <dependencies>
-      <dependency id="OBeautifulCode.Assertion.Recipes.Must" version="1.0.9" />
     </dependencies>
   </metadata>
   <files>
