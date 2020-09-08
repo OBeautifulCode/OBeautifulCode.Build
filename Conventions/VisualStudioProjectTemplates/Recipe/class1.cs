@@ -12,7 +12,7 @@ namespace [PROJECT_NAME]
     /// <summary>
     /// bug: DOCUMENTATION HERE.
     /// </summary>
-#if ![RECIPE_CONDITIONAL_COMPILATION_SYMBOL]
+#if ![SOLUTION_NAME_CONDITIONAL_COMPILATION_SYMBOL]
     [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     [System.CodeDom.Compiler.GeneratedCode("[PROJECT_NAME]", "See package version number")]
     internal

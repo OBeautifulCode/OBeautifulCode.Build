@@ -20,7 +20,7 @@ namespace [PROJECT_NAME]
     /// </summary>
     [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     [System.CodeDom.Compiler.GeneratedCode("[VISUAL_STUDIO_TEMPLATE_PACKAGE_ID]", "[VISUAL_STUDIO_TEMPLATE_PACKAGE_VERSION]")]
-#if ![RECIPE_CONDITIONAL_COMPILATION_SYMBOL]
+#if ![SOLUTION_NAME_CONDITIONAL_COMPILATION_SYMBOL]
     internal
 #else
     public
