@@ -60,6 +60,11 @@ namespace NAMESPACETOKEN.Internal
         public const string CA1020_AvoidNamespacesWithFewTypes_OptimizeForLogicalGroupingOfTypes = "We are optimizing for the logical grouping of types rather than the number of types in a namepace.";
 
         /// <summary>
+        /// An out parameter is required for a Try...() method that attempts to perform some operation, returning true when successful and setting the out parameter to the result of the operation or returning false and leaving the out parameter uninitialized (e.g. dictionary.TryGetValue(key, int out result) ).
+        /// </summary>
+        public const string CA1021_AvoidOutParameters_OutParameterRequiredForTryMethod = "An out parameter is required for a Try...() method that attempts to perform some operation, returning true when successful and setting the out parameter to the result of the operation or returning false and leaving the out parameter uninitialized (e.g. dictionary.TryGetValue(key, int out result) ).";
+
+        /// <summary>
         /// This is not a flags enum.  Enum values are purposefully non-contiguous.
         /// </summary>
         public const string CA1027_MarkEnumsWithFlags_EnumValuesArePurposefullyNonContiguous = "This is not a flags enum.  Enum values are purposefully non-contiguous.";
