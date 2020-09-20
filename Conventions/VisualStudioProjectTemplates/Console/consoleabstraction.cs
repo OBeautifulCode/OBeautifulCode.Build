@@ -12,7 +12,7 @@ namespace [PROJECT_NAME]
     using CLAP;
 
     using OBeautifulCode.Bootstrapper.Recipes;
-    using [PROJECT_NAME].Internal;
+    using OBeautifulCode.CodeAnalysis.Recipes;
 
     /// <inheritdoc />
     [SuppressMessage("Microsoft.Performance", "CA1812:AvoidUninstantiatedInternalClasses", Justification = ObcSuppressBecause.CA1812_AvoidUninstantiatedInternalClasses_ClassIsWiredIntoClapInProgramCs)]

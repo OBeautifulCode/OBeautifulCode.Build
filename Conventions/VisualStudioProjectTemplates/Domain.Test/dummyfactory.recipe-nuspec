@@ -8,10 +8,10 @@
     <dependencies>
         <dependency id="[PROJECT_NAME_WITHOUT_TEST_SUFFIX]" version="$version$" />
         <dependency id="OBeautifulCode.AutoFakeItEasy" version ="1.0.126" />
+        <dependency id="OBeautifulCode.CodeAnalysis.Recipes.SuppressBecause" version="1.0.6" />
     </dependencies>
   </metadata>
   <files>
-    <file src=".analyzers\SuppressBecause.cs" target="content\net462\.recipes\[SOLUTION_NAME]\SuppressBecause.cs" />
     <file src="[PROJECT_NAME_CLASSNAME_PREFIX]DummyFactory.cs" target="content\net462\.recipes\[SOLUTION_NAME]\[PROJECT_NAME_CLASSNAME_PREFIX]DummyFactory.cs" />
     <file src="[PROJECT_NAME_CLASSNAME_PREFIX]DummyFactory.designer.cs" target="content\net462\.recipes\[SOLUTION_NAME]\[PROJECT_NAME_CLASSNAME_PREFIX]DummyFactory.designer.cs" />
   </files>
