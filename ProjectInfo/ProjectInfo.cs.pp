@@ -10,7 +10,7 @@
 namespace $rootnamespace$
 {
     using System.Reflection;
-    
+
     /// <summary>
     /// Project-related information.
     /// </summary>
@@ -20,10 +20,10 @@ namespace $rootnamespace$
         /// The namespace used by types in this project.
         /// </summary>
         public static readonly string Namespace = typeof(ProjectInfo).Namespace;
-        
+
         /// <summary>
         /// The assembly produced by this project.
-        /// </summary>        
+        /// </summary>
         public static readonly Assembly Assembly = typeof(ProjectInfo).Assembly;
     }
 }
