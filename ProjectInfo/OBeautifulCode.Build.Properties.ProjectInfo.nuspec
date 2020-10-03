@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>OBeautifulCode.Build.Properties.ProjectInfo</id>
+    <version>$version$</version>
+	  <authors>OBeautifulCode</authors>
+    <copyright>Copyright (c) 2018 OBeautifulCode</copyright>
+    <projectUrl>https://github.com/OBeautifulCode</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/OBeautifulCode.Build/master/nuget-icon.png</iconUrl>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provide project information for use by other projects or subsystems.</description>
+    <tags>CI, Build</tags>
+    <developmentDependency>true</developmentDependency>
+	<dependencies>
+	</dependencies>
+  </metadata>
+  <files>
+    <file src="ProjectInfo.cs.pp" target="content/net462/Properties/ProjectInfo.cs.pp" />
+  </files>
+</package>
