@@ -50,6 +50,8 @@ $informationalVersion = Nuget-CreatePreReleaseSupportedVersion -version $buildVe
 $nuspecs = New-Object 'System.Collections.Generic.List[String]'
 $nuSpecFileAnalyzer = Resolve-Path ./Analyzers/OBeautifulCode.Build.Analyzers.nuspec
 $nuspecs.Add($nuSpecFileAnalyzer)
+$nuSpecProjectInfo = Resolve-Path ./ProjectInfo/OBeautifulCode.Build.Properties.ProjectInfo.nuspec
+$nuspecs.Add($nuSpecProjectInfo)
 $nuSpecFilePackaging = Resolve-Path ./Packaging/OBeautifulCode.Build.Packaging.nuspec
 $nuspecs.Add($nuSpecFilePackaging)
 $nuSpecFileConventionsRepoConfig = Resolve-Path ./Conventions/OBeautifulCode.Build.Conventions.RepoConfig.nuspec
