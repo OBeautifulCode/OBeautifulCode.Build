@@ -9,7 +9,7 @@
 
 namespace [PROJECT_NAME]
 {
-    using System;
+    using global::System;
 
     using FakeItEasy;
 
@@ -19,8 +19,8 @@ namespace [PROJECT_NAME]
     /// A Dummy Factory for types in <see cref="[PROJECT_NAME_WITHOUT_TEST_SUFFIX]"/>.
     /// </summary>
 #if ![SOLUTION_NAME_CONDITIONAL_COMPILATION_SYMBOL]
-    [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
-    [System.CodeDom.Compiler.GeneratedCode("[PROJECT_NAME]", "See package version number")]
+    [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+    [global::System.CodeDom.Compiler.GeneratedCode("[PROJECT_NAME]", "See package version number")]
     internal
 #else
     public

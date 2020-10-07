@@ -9,7 +9,7 @@
 
 namespace [PROJECT_NAME]
 {
-    using System;
+    using global::System;
 
     using FakeItEasy;
 
@@ -18,8 +18,8 @@ namespace [PROJECT_NAME]
     /// THIS CLASS EXISTS SO THAT THE DUMMY FACTORY CAN INHERIT FROM IT AND THE PROJECT CAN COMPILE.
     /// THIS WILL BE REPLACED BY A CODE GENERATED DEFAULT DUMMY FACTORY.
     /// </summary>
-    [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
-    [System.CodeDom.Compiler.GeneratedCode("[VISUAL_STUDIO_TEMPLATE_PACKAGE_ID]", "[VISUAL_STUDIO_TEMPLATE_PACKAGE_VERSION]")]
+    [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+    [global::System.CodeDom.Compiler.GeneratedCode("[VISUAL_STUDIO_TEMPLATE_PACKAGE_ID]", "[VISUAL_STUDIO_TEMPLATE_PACKAGE_VERSION]")]
 #if ![SOLUTION_NAME_CONDITIONAL_COMPILATION_SYMBOL]
     internal
 #else
