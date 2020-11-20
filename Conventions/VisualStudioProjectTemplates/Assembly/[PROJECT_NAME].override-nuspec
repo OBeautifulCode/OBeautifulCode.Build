@@ -3,6 +3,6 @@
   <metadata>
     <description>DESCRIPTION_HERE</description>
     <tags>TAG1_HERE TAG2_HERE [SUBSYSTEM_NAME]</tags>
-    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/[SOLUTION_NAME]/master/[PROJECT_NAME]/nuget-icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/[SOLUTION_NAME]/main/[PROJECT_NAME]/nuget-icon.png</iconUrl>
   </metadata>
 </package>

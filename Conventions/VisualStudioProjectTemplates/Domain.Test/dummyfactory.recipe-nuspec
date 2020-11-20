@@ -4,7 +4,7 @@
     <id>[PROJECT_NAME_WITHOUT_TEST_SUFFIX].Recipes.DummyFactory</id>
     <description>A Dummy Factory for types in [PROJECT_NAME_WITHOUT_TEST_SUFFIX]</description>
     <tags>dummyfactory dummy factory fakeiteasy autofixture snippet codeinclude utility shared recipe [SUBSYSTEM_NAME]</tags>
-    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/[SOLUTION_NAME]/master/[PROJECT_NAME]/nuget-icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/[SOLUTION_NAME]/main/[PROJECT_NAME]/nuget-icon.png</iconUrl>
     <dependencies>
         <dependency id="[PROJECT_NAME_WITHOUT_TEST_SUFFIX]" version="$version$" />
         <dependency id="OBeautifulCode.AutoFakeItEasy" version ="1.0.126" />

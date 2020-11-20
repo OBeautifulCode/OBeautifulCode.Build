@@ -3,6 +3,6 @@
   <metadata>
     <description>BSON Serialization Configuration for types in [PROJECT_NAME_WITHOUT_SERIALIZATION_SUFFIX]</description>
     <tags>bson serialization configuration [SUBSYSTEM_NAME]</tags>
-    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/[SOLUTION_NAME]/master/[PROJECT_NAME]/nuget-icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/[SOLUTION_NAME]/main/[PROJECT_NAME]/nuget-icon.png</iconUrl>
   </metadata>
 </package>

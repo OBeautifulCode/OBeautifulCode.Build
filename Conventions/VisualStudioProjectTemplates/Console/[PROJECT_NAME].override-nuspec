@@ -3,6 +3,6 @@
   <metadata>
     <description>Console EXE that PURPOSE_HERE.</description>
     <tags>console exe [SUBSYSTEM_NAME]</tags>
-    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/[SOLUTION_NAME]/master/[PROJECT_NAME]/nuget-icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/[SOLUTION_NAME]/main/[PROJECT_NAME]/nuget-icon.png</iconUrl>
   </metadata>
 </package>

@@ -3,6 +3,6 @@
   <metadata>
     <description>Shared types (models and utilities) for [SUBSYSTEM_NAME]</description>
     <tags>models modelobject utilities [SUBSYSTEM_NAME]</tags>
-    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/[SOLUTION_NAME]/master/[PROJECT_NAME]/nuget-icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/[SOLUTION_NAME]/main/[PROJECT_NAME]/nuget-icon.png</iconUrl>
   </metadata>
 </package>
